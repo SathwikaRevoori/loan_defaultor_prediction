@@ -1,0 +1,31 @@
+
+Loan Default Model v2 Report
+============================
+Samples: 255347
+Train/Test split: 178742/76605
+CV Accuracy: 0.6955
+CV ROC-AUC: 0.7652
+
+Final Metrics (optimized threshold=0.641):
+Accuracy: 0.8112
+Precision: 0.3040
+Recall: 0.4855
+F1: 0.3739
+ROC-AUC: 0.7590
+
+Confusion Matrix:
+[[57822  9887]
+ [ 4577  4319]]
+
+Top Features:
+       Feature  Coefficient  AbsValue
+           Age    -0.654108  0.654108
+  InterestRate     0.520837  0.520837
+RepaymentRatio     0.444278  0.444278
+MonthsEmployed    -0.379597  0.379597
+EmploymentType     0.166519  0.166519
+   CreditScore    -0.145373  0.145373
+ HasDependents    -0.139509  0.139509
+   HasCoSigner    -0.129606  0.129606
+NumCreditLines     0.114623  0.114623
+     Education    -0.092611  0.092611

@@ -1,0 +1,12 @@
+{
+  "cv_accuracy": 0.6955280564610564,
+  "cv_roc_auc": 0.7652016643454023,
+  "test_accuracy": 0.811187259317277,
+  "test_precision": 0.3040264676897086,
+  "test_recall": 0.4854991007194245,
+  "test_f1": 0.37390702103713963,
+  "test_roc_auc": 0.7589953242696129,
+  "optimal_threshold": 0.6407508593272778,
+  "train_size": 178742,
+  "test_size": 76605
+}
